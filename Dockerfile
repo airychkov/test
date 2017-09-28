@@ -1,4 +1,4 @@
-FROM alpine
+FROM ubuntu:artful
 
 RUN apt update
 RUN apt-get install python3.6
