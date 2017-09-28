@@ -1,6 +1,6 @@
 FROM ubuntu:artful
 
-RUN apt update
+RUN apt update -y && apt update
 RUN apt-get install python3.6
 
 EXPOSE 8080
