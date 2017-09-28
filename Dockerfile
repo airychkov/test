@@ -14,6 +14,4 @@ RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.6 1 \
     && update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 1
 RUN pip3 install --upgrade pip requests setuptools
 
-EXPOSE 8080
-
-CMD ["python3"]
+ENTRYPOINT ["python3"]
